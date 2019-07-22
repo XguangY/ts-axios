@@ -2,6 +2,7 @@
 import { AxiosRequestConfig } from './type'
 import xhr from './xhr'
 import { buildURL } from './helpers/url'
+
 function axios(config: AxiosRequestConfig):void {
     processConfig(config)
     xhr(config)
